@@ -9,9 +9,7 @@
 """
 CHD <-> CBC analysis — two complementary directions:
 
-  Direction 1 (original): CBC trajectory features (weeks 0–12) → predict CHD
-  Direction 2 (new):      CHD status → WBC values at 15–26 weeks
-                          (group comparison + linear regression)
+CHD status → WBC values at 15–26 weeks (group comparison + linear regression)
 
 Run:
   python run_chd_metrics_v2.py --base-dir "<PATH_TO_DATA_DIR>"
